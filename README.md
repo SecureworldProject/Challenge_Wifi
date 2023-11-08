@@ -1,8 +1,11 @@
 # Challenge_Wifi
 
-This challenge checks if a device is located within the Wifi network. The challenge returns the 'MAC' address of the target device if it is in the network and 0000 otherwise.
+Este challenge comprueba si un dispositivo se encuentra dentro de la red Wifi.
 
-This enables parental control. For example, it allows to know if the father smartphone and child devices are in the same network.
+El reto devuelve la dirección 'MAC' del dispositivo objetivo si está en la red y '0000' en caso contrario.
 
-It uses `getmac` library, which can be installed with `pip install getmac`
+Esto permite el control parental. Por ejemplo, permite saber si el smartphone del padre y los dispositivos del hijo están en la misma red.
 
+## Funcionamiento
+
+Utiliza la biblioteca `getmac`, que puede instalarse con `pip install getmac`.
